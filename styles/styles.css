@@ -126,8 +126,14 @@ display: none;
 
 .my-work .project-image{
     max-width: 250px;
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250;
+    object-fit: fill;
+}
+
+.my-work-subtitle{
+    text-align: center;
+    color: white;
 }
 
 .my-work hr{
