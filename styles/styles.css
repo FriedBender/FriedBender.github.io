@@ -120,4 +120,32 @@ display: none;
 
 .my-work h2{
     text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.my-work .project-image{
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.my-work hr{
+    padding: 0 10px;
+    color: thistle;
+}
+
+.my-work a{
+    text-decoration: none;
+}
+
+.footer{
+    padding: 3% 10%;
+    width: 100%;
+    text-align: center;
+}
+.footer li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 3%;
 }
