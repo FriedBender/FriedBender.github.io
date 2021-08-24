@@ -10,43 +10,30 @@
 
     <body>
         <header class="header" id="home">
-            <nav class="navbar">
-                <a href="#" class="nav-logo">Home</a>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#experiance" class="nav-link">Previous Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#Intro">Intro</a>
+                <a href="#experiance">My Experience</a>
+                <a href="#about">About me</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
         </header>
 
 
         <!-- Intro -->
         <section class="intro" id="home">
-            <h1 class="first_section">
+            <h1 class="intro my-intro">
                 <p Hello, I am Maksim Semchuk></p>
             </h1>
-            <img src="images/image_of_me.jpeg" alt="Picture of Maksim Semchuk" class="max_picture">
+            <img src="images/image_of_me.jpeg" alt="Picture of Maksim Semchuk" class="max-picture">
         </section>
 
 
         <!-- My Experiences -->
-        <section class="my_experience" id="experiance">
-            <h2 class="section_experiance">My Experience</h2>
+        <section class="my-experience" id="experiance">
+            <h2 class="section-experiance subtitle">My Experience</h2>
             <div class="experiences">
                 <div class="experience">
                     <h3>Backend Development</h3>
@@ -73,10 +60,10 @@
 
         <!-- About Me -->
         <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Developer based out of Charlotte, NC</p>
+            <h2 class="about-me-about-me-header">Who I am</h2>
+            <p class="about-me subtitle">Backend Developer based out of Charlotte, NC</p>
 
-            <div class="about-me__body">
+            <div class="about-me-body">
                 <p>I'm a Back-End developer with a focus on Python development and security.<br>
                 I'm passionate about building well-documented code that's easy to use and maintain.<br>
                 My Main Instrests are in security and encryption.</p>
@@ -86,46 +73,46 @@
         
         <!-- My Work -->
         <section class="my-work" id="projects">
-            <h2 class="section__title">My Work</h2>
-            <p class="section__subtitle section__subtitle--work">A few of my projects</p>
+            <h2 class="my-work-title">My Work</h2>
+            <p class="my-work subtitle">A few of my projects</p>
 
             <div class="wrapper">
                 <a href="https://github.com/Vegify-Capstone-Team/vegify">
-                <article class="card_wrapper">
-                    <div class="project_summary">
-                    <h3 class="project_title">Vegify</h3>
-                    <p class="project_technologies">Python / HTML / CSS / JS</p>
-                    <p class="project_desc">Parses menus and recommends vegan substitutions</p>
+                <article class="card-wrapper">
+                    <div class="project-summary">
+                    <h3 class="project-title">Vegify</h3>
+                    <p class="project-technologies">Python / HTML / CSS / JS</p>
+                    <p class="project-desc">Parses menus and recommends vegan substitutions</p>
                     </div>
                 </article>
                 </a>
                 
                 <a href="https://github.com/FriedBender/xv6">
-                <article class="card_wrapper">
-                    <div class="project_summary">
-                    <h3 class="project_title">XV6 Application</h3>
-                    <p class="project_technologies">C</p>
-                    <p class="project_desc">This is a project for the CS 333 Operating Systems class at PSU</p>
+                <article class="card-wrapper">
+                    <div class="project-summary">
+                    <h3 class="project-title">XV6 Application</h3>
+                    <p class="project-technologies">C</p>
+                    <p class="project-desc">This is a project for the CS 333 Operating Systems class at PSU</p>
                     </div>
                 </article>
                 </a>
                 
                 <a href="https://github.com/FriedBender/CS491-Homework0-2">
-                <article class="card_wrapper">
-                    <div class="project_summary">
-                    <h3 class="project_title">Encryption Analysis Homework</h3>
-                    <p class="project_technologies">AES</p>
-                    <p class="project_desc">Short intro to analyzing encryption</p>
+                <article class="card-wrapper">
+                    <div class="project-summary">
+                    <h3 class="project-title">Encryption Analysis Homework</h3>
+                    <p class="project-technologies">AES</p>
+                    <p class="project-desc">Short intro to analyzing encryption</p>
                     </div>
                 </article>
                 </a>
                 
                 <a href="https://github.com/FriedBender/CS495-WebandCloudSec">
-                <article class="card_wrapper">
-                    <div class="project_summary">
-                    <h3 class="project_title">Pentesting Scripts</h3>
-                    <p class="project_technologies">Python</p>
-                    <p class="project_desc">Scripts I wrote to do pentesting at PSU for CS 495</p>
+                <article class="card-wrapper">
+                    <div class="project-summary">
+                    <h3 class="project-title">Pentesting Scripts</h3>
+                    <p class="project-technologies">Python</p>
+                    <p class="project-desc">Scripts I wrote to do pentesting at PSU for CS 495</p>
                     </div>
                 </article>
                 </a>
@@ -133,21 +120,21 @@
         </section>
 
         <!-- Footer -->
-        <footer class="footer">
-            <p class="footer__body">Contact Me</p>
+        <footer class="footer" id="contact">
+            <p class="footer-body">Contact Me</p>
             <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="mailto:semchuk2@pdx.edu">
+                <li class="social-list-item">
+                    <a class="social-list-link" href="mailto:semchuk2@pdx.edu">
                         <i class="far fa-envelope"></i>
                     </a>
                 </li>                
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/FriedBender">
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://github.com/FriedBender">
                         <i class="fab fa-github"></i>
                     </a>
                 </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/maksimsemchuk/">
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.linkedin.com/in/maksimsemchuk/">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                 </li>
