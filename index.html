@@ -9,21 +9,21 @@
     </head>
 
     <body>
-        <header class="header">
+        <header class="header" id="home">
             <nav class="navbar">
                 <a href="#" class="nav-logo">Home</a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About me</a>
+                        <a href="#about" class="nav-link">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Previous Work</a>
+                        <a href="#experiance" class="nav-link">Previous Work</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Projects</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -32,6 +32,128 @@
                     <span class="bar"></span>
                 </div>
             </nav>
-    </header>
+        </header>
+
+
+        <!-- Intro -->
+        <section class="intro" id="home">
+            <h1 class="first_section">
+                <p Hello, I am Maksim Semchuk></p>
+            </h1>
+            <img src="images/image_of_me.jpeg" alt="Picture of Maksim Semchuk" class="max_picture">
+        </section>
+
+
+        <!-- My Experiences -->
+        <section class="my_experience" id="experiance">
+            <h2 class="section_experiance">My Experience</h2>
+            <div class="experiences">
+                <div class="experience">
+                    <h3>Backend Development</h3>
+                    <p> I specialize in Back-End development.
+                        I have experiance with multiple programming lanauges. In my current role at Wells Fargo, I primarily use C#
+                        and deal with multiple backend systems.
+                    </p>
+                </div> <!-- / experience -->
+                <div class="experience">
+                    <h3>Python Development</h3>
+                    <p> Many of my projects are written with Python. I have experience using Pytest for TDD;
+                        I have practice with websockets to transfer data between clients and a server;
+                        and BeautifulSoup, requests, and multiprocessing to run web pentesting scripts.
+                    </p>
+                </div> <!-- / experience -->
+                <div class="experience">
+                    <h3>Algorithms Development</h3>
+                    <p> I learned a good amount of how to approach developing various fun algorithms for CS 350.
+                    </p>
+                </div> <!-- / experience -->
+            </div> <!-- / experiences -->
+        </section>
+
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Developer based out of Charlotte, NC</p>
+
+            <div class="about-me__body">
+                <p>I'm a Back-End developer with a focus on Python development and security.<br>
+                I'm passionate about building well-documented code that's easy to use and maintain.<br>
+                My Main Instrests are in security and encryption.</p>
+            </div>
+        </section>
+
+        
+        <!-- My Work -->
+        <section class="my-work" id="projects">
+            <h2 class="section__title">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A few of my projects</p>
+
+            <div class="wrapper">
+                <a href="https://github.com/Vegify-Capstone-Team/vegify">
+                <article class="card_wrapper">
+                    <div class="project_summary">
+                    <h3 class="project_title">Vegify</h3>
+                    <p class="project_technologies">Python / HTML / CSS / JS</p>
+                    <p class="project_desc">Parses menus and recommends vegan substitutions</p>
+                    </div>
+                </article>
+                </a>
+                
+                <a href="https://github.com/FriedBender/xv6">
+                <article class="card_wrapper">
+                    <div class="project_summary">
+                    <h3 class="project_title">XV6 Application</h3>
+                    <p class="project_technologies">C</p>
+                    <p class="project_desc">This is a project for the CS 333 Operating Systems class at PSU</p>
+                    </div>
+                </article>
+                </a>
+                
+                <a href="https://github.com/FriedBender/CS491-Homework0-2">
+                <article class="card_wrapper">
+                    <div class="project_summary">
+                    <h3 class="project_title">Encryption Analysis Homework</h3>
+                    <p class="project_technologies">AES</p>
+                    <p class="project_desc">Short intro to analyzing encryption</p>
+                    </div>
+                </article>
+                </a>
+                
+                <a href="https://github.com/FriedBender/CS495-WebandCloudSec">
+                <article class="card_wrapper">
+                    <div class="project_summary">
+                    <h3 class="project_title">Pentesting Scripts</h3>
+                    <p class="project_technologies">Python</p>
+                    <p class="project_desc">Scripts I wrote to do pentesting at PSU for CS 495</p>
+                    </div>
+                </article>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer__body">Contact Me</p>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:semchuk2@pdx.edu">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </li>                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/FriedBender">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/maksimsemchuk/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="footnote">Maksim Semchuk © 2021</div>
+        </footer>
+
     </body>
 </html>
