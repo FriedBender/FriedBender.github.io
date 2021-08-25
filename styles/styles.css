@@ -80,6 +80,7 @@ display: none;
     width: auto;
     height: auto;
     object-fit: fill;
+    padding: 15px 15px;
 }
 
 .my-experience {
