@@ -75,6 +75,13 @@ display: none;
     transform: translateY(-50%);
 }
 
+.max-picture{
+    max-width: 250px;
+    width: 250px;
+    height: 250;
+    object-fit: fill;
+}
+
 .my-experience {
     padding: 3% 10%;
     background-color: black;
