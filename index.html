@@ -7,15 +7,15 @@
         <title>Maksim Semchuk's Personal Website</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/main-stylesheet.css" />
         <link rel="stylesheet" href="styles/index-styles.css" />
         <script defer src="scripts/index.js"></script>
     </head>
 
     <body>
-        <header class="header" id="header" label="header-bar" name="header-bar">
+        <header class="banner" id="banner" label="banner-bar" name="banner-bar">
             <div class="navigationBar" id="navigationBar">
                 <a href="/index.html" class="active">Home</a>
-                <a href="#Intro">Intro</a>
                 <a href="/html/experiance.html">My Experience</a>
                 <a href="/html/about.html">About me</a>
             </div>
@@ -29,8 +29,19 @@
                 <h1 class="intro-my-intro">
                     Hello, I am Maksim Semchuk.
                 </h1>
-                <h2 class="statement">
-                    Using this website you can learn about me and my professional experiance. If you wish to learn more you can schedule a calendly event.
+                <h2 class="Summary">
+                    <p>A quick summary about me.</p>
+                    <p>I am a Portland State University alumni class of 2021 with a Bachelors of Science in Computer Science.</p>
+                    <p>I am currently employed as a Software Engineer with Wells Fargo Advisors (WFA) working on the Document Management Services team where I do a mix of both maintaining old code, and creating new functionality to ensure compliance and modernizing the backend.</p>
+                    <p>The primary tech stack is Microsoft based: C#, ASP.NET, .Net core.</p>
+                    <p>I have proficiency with Python, Java, C++, C, Swift, HTML/CSS</p>
+                    <p>I am also a Husband and a Father of a beautiful little girl.</p>
+                    <p>If you would like to connect,
+                        <!-- Calendly link widget begin -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maxsemchuk/30min'});return false;">Schedule time with me.</a>
+                        <!-- Calendly link widget end --></p>
                 </h2>
             </div>
         </div>

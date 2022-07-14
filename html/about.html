@@ -7,21 +7,35 @@
         <title>Max's About Me page</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <link rel="stylesheet" href="/styles/about-styles.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/main-stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/about-styles.css" />
         <script defer src="/scripts/about.js"></script>
     </head>
 
     <body>
-        <header class="header" id="header" label="header-bar" name="header-bar">
+        <header class="banner" id="banner" label="banner-bar" name="banner-bar">
             <div class="navigationBar" id="navigationBar">
                 <a href="/index.html" class="active">Home</a>
-                <a href="#Intro">Intro</a>
                 <a href="/html/experiance.html">My Experience</a>
                 <a href="/html/about.html">About me</a>
             </div>
         </header>
     </body>
 
+    <!-- About me -->
+    <section class="intro container-fluid" id="about-me" label="about-me-section">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="about-me-Title">
+                    About Me
+                </h1>
+                <h2 class="about-me-text">
+                    A quick summary about me. I am a Portland State University alumni class of 2021. I have a Bachelors of Science in Computer Science and a minor in Mathematics. I really enjoyed group theory and ring and field theory.
+                    In my Major I focused on security and took courses such as Internetworking Protocols to understand how seperate systems communicate <a href="https://www.wireshark.org/">Wireshark</a>. Another interesting course I took was <a href="http://web.cecs.pdx.edu/~wuchang/courses/cs495/">Web and Cloud Security</a> which had a major focus on security of Web and Cloud applications, projects which included using Python to create attacks on <a href="https://portswigger.net/">PortSwigger</a> instances. There was also labs focusing on recreating previous Amazon Web Services (AWS) and Google Cloud Platform (GCP) breaches.
+                </h2>
+            </div>
+        </div>
+    </section>
     <img src="/images/image_of_me.png" alt="Picture of Maksim Semchuk" class="max-picture">
 
     <footer class="footer" id="contact" label="Contacting Maksim Semchuk">
